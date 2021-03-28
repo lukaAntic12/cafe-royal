@@ -1,0 +1,127 @@
+@media screen and (max-width: 1200px){
+    #navigation ul{
+        font-size: 1rem !important;
+    }
+    #indexHeading h1{
+        font-size: 1.75rem !important;
+    }
+    #mug img{
+        max-width: 70% !important;
+    }
+    #menu1{
+        padding-bottom: 1rem !important;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    #indexHeading{
+    }
+    .logo img{
+        max-width: 40% !important;
+    }
+    #figure img{
+        width: 200px;
+    }
+    #menu1{
+        font-size: 1rem;
+    }
+    #contactHeading{
+        left: 25% !important;
+    }
+    #suggestion{
+        text-align: left !important;
+    }
+}
+@media screen and (max-width: 768px){
+    h2{
+        font-size: 1.4rem !important;
+    }
+    h3{
+        font-size: 1.2rem !important;
+    }
+    h4{
+        font-size: 1rem !important;
+    }
+    #menu, #menu1{
+        display: none !important;
+    }
+    #hamburger{
+        display: block !important;
+        font-size: 30px !important;
+        margin-top: 2px;
+    }
+    #mobile-menu{
+        top: 9%;
+    }
+    #indexHeading, #heading{
+        top: 13% !important;
+    }
+     #indexHeading h1, #heading h1{
+        font-size: 3rem !important;
+    }
+     #figure img{
+         width: 150px;
+    }
+    #wraper img{
+        left: 0%;
+    }
+}
+@media screen and (max-width: 600px){
+    .mobCenter{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+    .font-weight-bold{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 1.1rem !important;
+    }
+    .logo img{
+        max-width: 100%;
+    }
+    #indexHeading h1{
+        font-size: 2rem !important;
+    }
+    #indexHeading{
+        top: 15% !important;
+    }
+    #heading{
+        left: 30% !important;
+    }
+    #workHours{
+        font-size: 1rem !important;
+    }
+     #figure img{
+         width: 100px !important;
+    }
+    #menuUp ul, #menuDown ul{
+        font-size: 1rem !important;
+    }
+    #wraper img{
+        max-width: 100% !important;
+    }
+    #social ul{
+        margin-left: rem !important;
+    }
+}
+@media screen and (max-width: 450px){
+    #heading{
+        top: 13% !important;
+        left: 23% !important;
+    } 
+    #hamburger{
+        font-size: 30px !important;
+        margin-top: 13px;
+    }
+}
+@media screen and (max-width: 340px){
+    #heading{
+        top: 13% !important;
+        left: 12% !important;
+    }
+}

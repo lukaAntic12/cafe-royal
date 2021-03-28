@@ -1,0 +1,253 @@
+:root{
+    --textColor: #2a2a2c;
+    --primColor: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .tracking-in-expand {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.active{
+    color: #fff !important;
+}
+.text-black{
+    color: #000;
+}
+.text-grey{
+    color: #5e5b51;
+}
+.text-grey1{
+    color: var(--textColor);
+}
+.font-italic{
+    font-style: italic;
+}
+.font-size-1{
+    font-size: 1.25rem;
+}
+.font-size-2{
+    font-size: 1.5rem;
+}
+.font-size-3{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.full-width{
+    width: 100%;
+}
+.my-3{
+    margin: 1rem 0;
+}
+.mt-3{
+    margin-top: 1rem;
+}
+.mr-3{
+    margin-right: 2rem;
+}
+.mt-5{
+    margin-top: 3rem;
+}
+.mx-2{
+    margin: 0 0.5rem;
+}
+.mx-4{
+    margin: 0 1.5rem;
+}
+.px-2{
+    padding: 0 0.5rem;
+}
+.px-4{
+    padding: 0 1.5rem;
+}
+.px-5{
+    padding: 0 3rem;
+}
+.py-5{
+    padding: 3rem 0;
+}
+.pt-3{
+    padding-top: 1rem;
+}
+.row{
+    margin-bottom: 0 !important;
+}
+.logo img{
+    max-width: 40%;
+    padding: 5px;
+}
+#mobile-menu{
+    display:none;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 10%;
+    z-index: 9999;
+    height: 92vH;
+    width: 100%;
+    background: linear-gradient(to top left, #d1975c 0%, #5e2f00 100%);
+}
+#moblie-menu a:hover{
+    color: #fff;
+}
+#mobile-menu.active{
+    display:block;
+}
+#meni{
+    background: linear-gradient(to bottom left, #d1975c 0%, #5e2f00 100%);
+}
+#menu a:hover{
+    color: #fff;
+}
+#hamburger{
+    margin-top: 13px;
+    font-size: 40px;
+    border: none;
+    display: none;
+}
+#indexHeading{
+    top: 21%;
+    left: 27%;
+}
+#indexHeading h1{
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 6rem;
+}
+#about{
+    width: 100%;
+}
+#about{
+    background: linear-gradient(to bottom, #d1975c 0%, #5e2f00 100%);
+}
+#coffeeBrands{
+    background: linear-gradient(to top, #d1975c 0%, #5e2f00 100%);
+}
+#mug img{
+    max-width: 100%;
+}
+#benefits{
+    background: linear-gradient(to bottom, #d1975c 0%, #5e2f00 100%);
+
+}
+.sketchImage img{
+    width: 70%;
+}
+#footerIndex{
+    background: linear-gradient(to top, #d1975c 0%, #5e2f00 100%);
+}
+#footer{
+    background-color: var(--textColor);
+}
+#menuHeader{
+    background-image: url(../images/menu1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+#heading{
+    top: 20%;
+    left: 35%;
+}
+#heading h1{
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 6rem;
+}
+#menuBtn, #contactBtn{
+    background-color: var(--primColor);
+    border: none;
+}
+#menuBtn:hover, #contactBtn:hover{
+    background-color: var(--textColor);
+    color: var(--primColor);
+}
+.card{
+    width: 18rem;
+}
+.price{
+    border-bottom: 1px solid var(--primColor);
+}
+p{
+    color: black;
+}
+#menuUp{
+    background: linear-gradient(to top left, #f0b57a 0%, #945312 100%);
+}
+#menuDown{    
+    background: linear-gradient(to bottom left, #f0b57a 0%, #945312 100%);
+}
+#contactHeader{
+    background-image: url("../images/contact1.jpg");
+}
+#contactForm{
+    background-image: url(../images/contact2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.form-control{
+    border: 2px solid #000;
+    border-radius: 4px;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 14px;
+}
+label{
+    font-size: 20px;
+    padding: 10px;
+}
+#authorHeader{
+    background-image: url(../images/author1.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#wraper img{
+    max-width: 70%;
+    position: relative;
+    left: 100%;
+    margin: 3rem;
+    
+}
+.linkovi a:hover{
+    color: #a52a2a;
+}

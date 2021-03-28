@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Cafe Royal</title>
+    <meta charset="UTF-8"/>
+    <meta name="author "content="Luka Antić"/>
+    <meta name="keywords" content="Luka Antić, ICT"/>
+    <meta name="description" content="Ja sam Luka Antić. Trenutno studiram Internet tehnologije na ICT univerzitetu u Beogradu."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/images/favicon.ico"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
+    <script src="https://kit.fontawesome.com/f6100b7692.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container-fluid" id="meni">
+        <div class="container">
+          <div id="navigation" class="row">
+            <div class=" logo col-8 col-md-4 nav justify-content-center my-1">
+              <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="col-4 col-md-8">
+              <div class="mt-2 d-flex justify-content-end">
+                <i id="hamburger" onclick="toggleMenu()" class="fas fa-bars"></i>
+              </div>
+              <div id="mobile-menu">
+                <ul class="list">
+                  <li class="my-3">
+                    <a href="index.html" class="text-grey1">Početna</a>
+                  </li>
+                  <li class="my-3">
+                    <a href="menu.html" class="text-grey1">Meni</a>
+                  </li>
+                  <li class="my-3">
+                    <a href="contact.html" class="text-grey1">Kontakt</a>
+                  </li>
+                  <li class="my-3">
+                    <a href="author.html" class="text-grey1">Autor</a>
+                  </li>
+                </ul>
+              </div>
+              <ul id="menu" class="nav justify-content-center font-size-1 py-2">
+                <li class="px-4 px-md-3 px-xl-5">
+                  <a href="index.html" class="text-grey1">Početna</a>
+                </li>
+                <li class="px-4 px-md-3 px-xl-5">
+                  <a href="menu.html" class="text-grey1">Meni</a>
+                </li>
+                <li class="px-4 px-md-3 px-xl-5">
+                  <a href="contact.html" class="text-grey1">Kontakt</a>
+                </li>
+                <li class="px-4 px-md-3 px-xl-5">
+                  <a href="author.html" class="text-grey1 active">Autor</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="authorHeader" class="container-fluid flex-column d-flex justify-content-center align-items-center">
+        <div id="wraper" class="col-5 col-sm-4 d-flex justify-content-center align-items-center">
+            <img src="assets/images/autor.jpg" alt="author"/>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 pt-5">
+              <h3 class="text-black mb-4 text-center">O MENI</h3>
+              <p>Ja sam Luka Antić. Trenutno studiram Internet tehnologije na ICT univerzitetu u Beogradu.
+                Opisao bih sebe kao nekoga ko je uporan i brzo uči. U budućnosti planiram da usavršim svoje znanje i
+                nastavim da radim svoj posao.
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6 p-4 align-items-center flex-column d-flex">
+              <ul class="linkovi">
+                <li class="my-3">
+                  <i class="fas fa-mobile mr-2"></i> +381 69 2810222
+                </li>
+                <li class="my-3">
+                  <i class="fas fa-envelope mr-2"></i> luka&#46;antic&#46;38&#46;20&#64;ict&#46;edu&#46rs
+                </li>
+                <li class="my-3">
+                  <i class="fas fa-globe mr-2"></i><a href="https://lukaantic12.github.io/lukaportfolio/" class="text-grey1">My portfolio</a>
+                </li>
+                </ul>
+                <ul class="linkovi d-flex flex-row align-items-center justify-content-center font-size-1">
+                  <li class="px-3">
+                      <a href="https://www.facebook.com/" class="text-grey1">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                  </li>
+                  <li class="px-3">
+                      <a href="https://twitter.com/" class="text-grey1">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                  </li>
+                  <li class="px-3">
+                      <a href="https://www.instagram.com/" class="text-grey1">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                  </li>
+                  <li class="px-4">
+                      <a href="https://www.linkedin.com/in/luka-antic-38479120a/" class="text-grey1">
+                          <i class="fab fa-linkedin"></i>
+                      </a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <p class="text-center text-white pt-2">Copyright &copy; 2021 Luka Antić 38/20. All Rights Reserved</p>
+    </div>
+  </div>
+</div>
+         <script>
+             function toggleMenu() {
+                var menuBox = document.getElementById('mobile-menu');
+                if (menuBox.style.display == "block") {
+                    menuBox.style.display = "none";
+                 }
+                 else {
+                     menuBox.style.display = "block";
+                  }
+                 }
+        </script>
+</body>
