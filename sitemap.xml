@@ -6,28 +6,28 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc></loc>
+  <loc>https://lukaantic12.github.io/cafe-royal/</loc>
   <lastmod>2021-28-3</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 
 <url>
-  <loc></loc>
+  <loc>https://lukaantic12.github.io/cafe-royal/menu.html</loc>
   <lastmod>2021-28-3</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
 </url>
 
 <url>
-  <loc></loc>
+  <loc>https://lukaantic12.github.io/cafe-royal/contact.html</loc>
   <lastmod>2021-28-3</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 
 <url>
-  <loc></loc>
+  <loc>https://lukaantic12.github.io/cafe-royal/author.html</loc>
   <lastmod>2021-28-3</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
