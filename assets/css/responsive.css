@@ -51,7 +51,7 @@
         margin-top: 2px;
     }
     #mobile-menu{
-        top: 9%;
+        top: 3.9rem;
     }
     #indexHeading, #heading{
         top: 13% !important;
@@ -118,15 +118,14 @@
         font-size: 30px !important;
         margin-top: 13px;
     }
-    #mobile-menu{
-        top: 8%;
-    }
 }
 @media screen and (max-width: 340px){
     #heading{
         top: 13% !important;
         left: 12% !important;
     }
+}
+@media screen and (max-width: 256px){
     #mobile-menu{
         top: 8%;
     }
