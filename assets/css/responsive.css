@@ -118,6 +118,9 @@
         font-size: 30px !important;
         margin-top: 13px;
     }
+    #mobile-menu{
+        top: 8%;
+    }
 }
 @media screen and (max-width: 340px){
     #heading{
